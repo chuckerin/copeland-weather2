@@ -54,7 +54,7 @@ function ZipCodeSearchMask(props: Props) {
       <div className='validation-message'>
         {!isZipCodeInputValid && (zipCodeInput?.length ?? 0) > 0 && (
           <small id='zipHelp' className='p-error'>
-            Invalid zip format
+            Invalid zip code format
           </small>
         )}
       </div>
