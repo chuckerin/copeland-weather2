@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header-background {
+  background-image: '/wxde-main-header.jpg';
+}
+
+.header-logo {
+  background-color: #0c30cc;
+
+  /* color: #0c30cc; */
+}
+
+.header-text {
+  font-family: 'Orbitron', sans-serif;
+  color: #555;
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 1em;
+  padding-left: 50px;
+  padding-bottom: 1em;
+}
+
+.wxde-typography {
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  color: #555;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1em;
+  top: 52px;
+  left: 20px;
+}
+
+.tab {
+  width: '1000px';
+}
+
+.footer-text {
+  justify-content: 'left';
+  font-family: 'Orbitron', sans-serif;
+  color: #555;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1em;
+  padding-left: 50px;
+  padding-top: 1em;
+}
+
+.error {
+  color: maroon;
+  padding: 2em;
+  min-height: 25px;
+  /* border: 2px solid maroon; */
+}
+
+.components {
+  justify-content: right;
+  padding: 2em;
+  padding-right: 6em;
+  width: 800px;
+  /* border: 2px solid blue; */
+}
+
+.btn {
+  width: 100px;
+  text-align: center;
+}
+
+.label {
+  font-size: 2em;
+  font-family: 'Orbitron', sans-serif;
+  color: #2c2c2c;
+  padding-top: 0.5em;
+  /* width: 300px; */
+  text-align: 'right';
+  border: 1;
+}
+
+.curent-weather {
+  font-size: 1.2em;
+  /* padding: 1.5em; */
+  min-height: 100px;
+  /* border: 2px solid blue; */
+}
+
+.response-container {
+  min-height: 250px;
+  /* border: 2px solid blue; */
+}
+
+.response-label {
+  color: #1f1f1f;
+}
+
+.response-value {
+  color: black;
+  font-size: 1.3em;
+}
+
+.validation-message {
+  min-height: 50px;
+  /* border: 2px solid blue; */
+}
